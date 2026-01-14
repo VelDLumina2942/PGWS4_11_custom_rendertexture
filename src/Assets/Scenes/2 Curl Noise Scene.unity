@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 36482919}
   - component: {fileID: 36482921}
   - component: {fileID: 36482920}
+  - component: {fileID: 36482922}
   m_Layer: 5
   m_Name: 1 RawImage Color
   m_TagString: Untagged
@@ -176,7 +177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 8600000, guid: 4458b75e489f8d5419ce3f53051f5664, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -191,6 +192,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36482918}
   m_CullTransparentMesh: 1
+--- !u!114 &36482922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36482918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69102be1d6577344d86a3fbb148ee397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InitializeMonoBehaviourScript
+  tex: {fileID: 8600000, guid: 4458b75e489f8d5419ce3f53051f5664, type: 2}
 --- !u!1 &306159500
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 28f58a3c7644660459c5df07f7aa5405, type: 2}
   m_Color: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -312,7 +326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 66c9146329589ad409be35cc69f00076, type: 2}
   m_Color: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -392,7 +406,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 8600000, guid: a216cab2302e9a14a900ca9e669913ab, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -593,7 +607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: b997c9f1e1d00cc49acf04acdc2f11ac, type: 2}
   m_Color: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -601,7 +615,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 8600000, guid: b1d6328e26327a043805514ba69aa1f0, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -627,6 +641,8 @@ GameObject:
   - component: {fileID: 1650974774}
   - component: {fileID: 1650974776}
   - component: {fileID: 1650974775}
+  - component: {fileID: 1650974778}
+  - component: {fileID: 1650974777}
   m_Layer: 5
   m_Name: 2 RawImage Color
   m_TagString: Untagged
@@ -673,7 +689,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 8600000, guid: 03207318e7bfc754c9cc898fbecdf9da, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -688,6 +704,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1650974773}
   m_CullTransparentMesh: 1
+--- !u!114 &1650974777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650974773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 5
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1650974778}
+          m_TargetAssemblyTypeName: ColorMonoBehaviourScript, Assembly-CSharp
+          m_MethodName: OnDrag
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1650974778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650974773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28bd6b71b6295344a9729eddfebbb0e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorMonoBehaviourScript
+  texField: {fileID: 8600000, guid: 5258adbf8b921524592665852c21058e, type: 2}
+  texColor: {fileID: 8600000, guid: 03207318e7bfc754c9cc898fbecdf9da, type: 2}
+  matField: {fileID: 2100000, guid: cb0728586c868f442a257758a2cac4bd, type: 2}
 --- !u!1 &1790507675
 GameObject:
   m_ObjectHideFlags: 0
