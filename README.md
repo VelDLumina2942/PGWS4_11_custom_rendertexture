@@ -12,7 +12,7 @@
 
 ### Curl noise
 
-![結果](Result2.gif)
+![結果](Result1.gif)
 
 ### あなたの考えた素敵なシェーダー
 
